@@ -1,0 +1,101 @@
+REKAYASA PERANGKAT LUNAK
+“Take Home Test (UTS)”
+Disusun Untuk memenuhi Ujian Tengah Semester Rekayasa Perangkat Lunak
+
+
+
+ 
+
+
+
+Oleh :
+Agus Hermawan 			(1406008)
+
+
+
+
+
+
+
+
+Teknik Informatika B
+SEKOLAH TINGGI TEKNOLOGI GARUT
+Jl. Mayor Syamsu No.1 Telp.(0262)232773-FAX.(0262)232332 Tarogong Kidul Garut
+44151
+
+
+Cerita skenario
+Salah satu kementrian akan membangun aplikasi untuk pengelolaan surat tugas (disposisi surat). Pada dasarnya, seluruh surat yang masuk nantinya akan diperiksa dan didelegasikan kepejabat bersangkutan. Namun untuk melakukan pendelegasian, surat harus melalui hirarki jabaatan sehingga setiap tingkatan dari atasan pejabat yang bersangkutan harus dan akan mengetahui tentang pendelegasian surat tersebut. Contohnya jika staff akan mendapat disposisi dari mentri, maka mentri akan mendelegasikan surat ke kepala dinas, lalu kekepala bidang, lalu ke kepala staff, baru kepada staff tersebut sehingga kepala dinas, kepala bidang dan kepala staff mengetahui mengenai pendelegasian surat ke staff. Setiap surat pertama kali akan diperiksa sekertaris masing-masing tingkat jabatan yang dilakukan sebagai perwakilan dari kepala jabatan. Setiap pemeriksaan dilakukan, maka status surat akan berubah dari pengirim surat akan mendapatkan notifikasi sudah sampai mana surat tersebut diproses. Jika surat sudah sampai kepada pejabat yang dituju, maka pejabat tersebut wajib menyelesaikan tugas tersebut. Setelah tugas selesai, pejabat yang menerima surat harus melaporkan balik sebagai aksi tindak lanjut. Proses hirarki tetap berjalan disini, hingga aksi tindak lanjut diterima oleh pengirim surat. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Function Requirtment
+
+aktor
+	Keterangan
+Mentri 
+-	Kepala mentri
+
+-	Kepala dinas
+
+-	Kepala bidang
+
+
+
+	
+-	Memberi surat dan didelegasikan 
+
+-	Menerima surat dari kepala mentri dan menyerahkan surat kepada kepala dinas 
+-	Menerima dan mendelegasikan surat yang didelegasikan, dan menyerahkan kepada sekertaris staff
+Staff
+-	Sekretariat staff
+
+
+-	Kepala staff 
+
+
+-	staff
+
+
+	
+-	Menerima surat dari kementrian
+
+
+-	Menerima surat yang telah didelegasi dan di setujui oleh sekertaris staff dan dan menyerahkan kepada kepala dinas
+-	Menerima surat dari kepala dinas
+
+
+
+
+
+
+
+
+
+
+
+Use Case
+ 
+
+
+
+
+
+
+
+
+DAFTAR PUSTAKA
+http://sl401.ilearning.me/2015/11/09/buat-1-studi-kasus-dengan-menggambarkan-dengan-uml-usecase-dan-activity-diagram/
+http://moestahid.blogspot.co.id/2012/09/13-model-uml-waterfall_24.html 
