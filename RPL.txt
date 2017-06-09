@@ -1,0 +1,64 @@
+NamaAnggota :AgusHermawan
+		DendiPurnama
+		Erwin Saepul J
+		Muhammad IqbalNugraha
+		SidiqZaenalKafi
+
+
+
+
+ManajemenKaryawan
+
+ 
+
+
+
+
+ 
+Type Requirment	Characteristics
+ManajemenKaryawan
+-DirekturRumahSakit
+
+
+-Karyawan
+
+
+-Manajer	
+-Membuatlaporandanmengabsenkaryawan, jugamenyerahkanlaporan per harikepadamanajer
+
+-MengabsendanmenerimalaporandariDirekturRumahSakit
+
+-MenerimalaporandariDirekturRumahSakit
+
+Pasien
+•	BPJS
+•	Non BPJS
+•	Pasien
+•	RumahSakit	
+•	Melayanipasien
+•	Melayanipasien
+•	Pasiendiperiksa
+•	Menyimpan data medic pasien
+Apotek
+?	Apoteker
+
+?	Pasien
+
+
+?	Dokter
+?	Apotek	
+?	Menerimaresepdaridokter, danmemberikanobatkepadapasien
+?	Menerimaobatdaridokter, danmenerimaresepdaridokter, mengambilobatdariapoteker
+?	Memberikanresepobatkepadapasien
+?	Menyimpanobatdanmengambilobatdariapotekerdanmemberikanobatkepadapasien
+Pembayaran
+?	Resepsionist
+
+?	Direktur
+
+?	Pasien	
+?	Melayanidanmenerimaharga yang sudahditentukandaridirektur
+?	MenentukanhargadandiberikankepadaResepsionist
+?	Pasienmembayarkepadaresepsionist
+
+
